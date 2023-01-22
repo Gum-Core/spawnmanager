@@ -313,7 +313,7 @@ function spawnPlayer(spawnIdx, cb)
 
         ShutdownLoadingScreen()
         -- Citizen.InvokeNative(0x1E5B70E53DB661E5, 0, 0, 0, "Redwest RP", "Československý roleplay", "Stahují se ti data ze serveru.")
-        exports['gum_character']:loading(true) 
+        --exports['gum_character']:loading(true) 
         if IsScreenFadedOut() then
             DoScreenFadeIn(500)
 
